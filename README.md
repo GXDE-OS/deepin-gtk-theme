@@ -1,6 +1,6 @@
-Deepin GTK Theme
+![HEADER](./docs/img/header.png)
 
-This package provides matching Deepin themes for GTK 2, GTK 3 and GTK 4.
+This package provides Deepin/GXDE themes for GTK 2, GTK 3 and GTK 4.
 
 
 ## License

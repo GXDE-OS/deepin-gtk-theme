@@ -1,3 +1,9 @@
+deepin-gtk-theme (26.0.0-gxde1) unstable; urgency=medium
+
+  * 新增GTK4支持
+
+ -- CharOfString <root@charofstring.cc>  Wed, 22 Jul 2026 00:08:10 +0800
+
 deepin-gtk-theme (25.3.9) unstable; urgency=medium
 
   * chore: update gtk theme

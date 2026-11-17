@@ -1,5 +1,5 @@
 # Maintainer: CharOfString <root@charofstring.cc>
-pkgname=deepin-gtk-theme-git
+pkgname=gxde-deepin-gtk-theme
 pkgver=26.0.0
 pkgrel=1
 pkgdesc='GTK theme for GXDE (deepin and deepin-dark)'
@@ -8,8 +8,9 @@ url="https://github.com/GXDE-OS/deepin-gtk-theme"
 license=('GPL-3.0-or-later')
 optdepends=('gtk-engine-murrine: for the GTK2 theme')
 makedepends=('git')
-provides=('deepin-gtk-theme')
-conflicts=('deepin-gtk-theme')
+provides=('deepin-gtk-theme' "deepin-gtk-theme-git=$pkgver")
+conflicts=('deepin-gtk-theme' 'deepin-gtk-theme-git')
+replaces=('deepin-gtk-theme-git')
 source=()
 sha512sums=()
 
